@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Macbook Air",
+            "price": 1200.00
+        },
+        {
+            "id": 2,
+            "name": "Macbook Pro",
+            "price": 1900.00
+        },
+        {
+            "id": 3,
+            "name": "Samsung Galaxy S20+",
+            "price": 1000.00
+        }
+    ]
+}
