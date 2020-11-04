@@ -17,6 +17,7 @@ import { MatListModule } from '@angular/material/list';
 import { ProductsComponent } from './views/products/products.component';
 import { ProductCreateComponent } from './components/product/product-create/product-create.component';
 import { RedDirective } from './directives/red.directive';
+import { ForDirective } from './directives/for.directive';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { RedDirective } from './directives/red.directive';
     ProductsComponent,
     ProductCreateComponent,
     RedDirective,
+    ForDirective,
   ],
   imports: [
     BrowserModule,
