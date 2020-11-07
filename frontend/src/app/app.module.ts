@@ -19,7 +19,7 @@ import { MatSnackBarModule } from "@angular/material/snack-bar";
 
 import { ProductsComponent } from "./views/products/products.component";
 import { ProductCreateComponent } from "./components/product/product-create/product-create.component";
-import { RedDirective } from "./directives/red.directive";
+import { BlueDirective } from "./directives/blue.directive";
 import { ForDirective } from "./directives/for.directive";
 
 import { HttpClientModule } from "@angular/common/http";
@@ -34,8 +34,8 @@ import { MatSortModule } from "@angular/material/sort";
 
 import localePt from "@angular/common/locales/pt";
 import { registerLocaleData } from "@angular/common";
-import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
-import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { ProductUpdateComponent } from "./components/product/product-update/product-update.component";
+import { ProductDeleteComponent } from "./components/product/product-delete/product-delete.component";
 
 registerLocaleData(localePt);
 
@@ -48,7 +48,7 @@ registerLocaleData(localePt);
     HomeComponent,
     ProductsComponent,
     ProductCreateComponent,
-    RedDirective,
+    BlueDirective,
     ForDirective,
     ProductReadComponent,
     ProductUpdateComponent,
