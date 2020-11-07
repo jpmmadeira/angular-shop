@@ -5,8 +5,9 @@
       <input
         matInput
         placeholder="Name"
-        [(ngModel)]="product.name"
+        [value]="product.name"
         name="name"
+        disabled
       />
     </mat-form-field>
 
@@ -14,8 +15,9 @@
       <input
         matInput
         placeholder="Price (€)"
-        [(ngModel)]="product.price"
+        [value]="product.price"
         name="price"
+        disabled
       />
     </mat-form-field>
   </form>
